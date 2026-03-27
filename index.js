@@ -64,4 +64,4 @@ async function sendMessage(id, text) {
 }
 
 app.get("/", (req, res) => res.send("UulEnCargo Bot running! 🚀"));
-app.listen(process.env.PORT || 3000, () => console.log("Server started!"));
+app.listen(process.env.PORT || 10000, () => console.log("Server started!"));
